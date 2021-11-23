@@ -1,0 +1,128 @@
+html{
+    height: 100%;
+}
+html{
+    background: peachpuff;
+}   
+body{
+    background: orangered;
+    border-radius: 20px;
+    height: 100%;
+    max-width: 300px;
+}
+body>div{
+ min-height: 60%;
+}
+h2>span{
+    float: left;
+}
+body>h2{
+    color: white;
+    text-align: center;
+}
+#body{
+    background: white;
+}
+
+.semester h2{
+    color: orange;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.course{
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 0;
+    padding: 10px 10px 10px 0;
+    width: 235px;
+}
+
+table,tr,td{
+    border: solid black 1px;
+}
+table{
+    border-collapse: collapse;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    width: 85%;
+}
+tr{
+    border-radius: 3px;
+}
+
+.circle-x{
+    border: solid orangered 1px;
+    border-radius: 50%;
+    color: orangered;
+    float: right;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 20px;
+}
+.float{
+    float: left;
+}
+
+.add-course{
+    border: solid black 1px;
+    clear: both;
+    width: 70%;
+    margin: 10px 10px 10px 10px;
+    padding: 2px 30px;
+    text-align: center;
+}
+.circle-plus{
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-right: 5px;
+    text-align: center;
+    /* background-color: orange; */
+    
+    display: inline-block; 
+    
+}
+
+.ad-cs{
+    border: solid black 1px;
+}
+
+.ad-sm{
+    border: solid orangered 1px;
+}
+.add-semester{
+    color: orangered;
+    margin-left: 5px;
+}
+
+#btn{
+    background-color: orangered;
+    border: none;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 6px 30px;
+
+}
+
+hr{
+    margin-left: 0;
+    width: 300px;
+}
+
+.unit{
+    float: left;
+    margin-left: 10px;
+}
+
+#cgpa{
+    float: right;
+    margin-right: 10px;
+}

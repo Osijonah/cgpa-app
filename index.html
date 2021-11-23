@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" media="screen" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h2><span><</span> CGPA Calculator</h2>
+    <div id="body">
+        <div class="semester">
+            
+        </div>
+        <!-- <div class="semester">
+            <h2>Semester 1</h2>
+            <div class="course">
+               <table class="float">
+                   <thead>
+                       <tr><th colspan="2">Course</th></tr>
+                   </thead>
+                   <tbody>
+                       <tr>
+                           <td>
+                               <select name="" id="">
+                                   <option value="">Grade</option>
+                               </select>
+                           </td>
+                           <td>
+                               <select name="" id="">
+                                   <option value="">Units</option>
+                               </select>
+                           </td>
+                       </tr>
+                   </tbody>
+               </table>
+               <p class=" circle-x"> X </p>
+            </div>
+           
+        </div> -->
+        
+        
+        <div class="add-course">
+            <p class="ad-cs circle-plus">+</p><span>Add Course</span>
+        </div>
+        <div class="add-semester">
+           <p class="ad-sm circle-plus">+</p><span>Add Semester</span>
+        </div>
+        <button id="btn">Calculate</button>
+        <hr>
+        <p class="unit float">
+            Units Total
+            <p class="unit-value"></p>
+        </p>
+        <p id="cgpa">
+            Your CGPA
+            <p class="cgpa-value"></p>
+        </p>
+    </div>
+    <label for="">choose browser
+        <input list="browser" name="myBrowser"/>
+    </label>
+    <datalist id="browsers">
+        <option value="chrome"></option>
+        <option value="opera"></option>
+    </datalist>
+ <script src="app.js"></script>
+</body>
+</html>
